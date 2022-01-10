@@ -312,6 +312,7 @@ workflows:
       - coverage-gcc-48
       - coverage-clang
       - coverage-osx
+      - build-linux-aarch64
       - build-linux: &build
           matrix:
             parameters:
